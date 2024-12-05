@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(241, 232, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1000;
+}
+
+h1 {
+    color: red;
+}
+.fio {
+    color: rgb(188, 53, 237);
+}
+h2 {
+    color: #000;
+}
+#MyPhoto {
+    width: 200px;
+    height: 200px;
+}
+img  {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+input,
+label {
+    display: block;
+}
+input[type="checkbox"]{
+    display: inline;
+}
+
+    .skillslist li{
+        font-size: 25px;
+        color:aquamarine;
+        transition: .5s;
+    }
+    .skillslist li:first-child{
+        color:red;
+        cursor: pointer;
+        font-size:  35px;
+    }
+        
+    .skillslist li:last-child{
+    color:blue;
+}
+.skillslist li:nth-child(3n+2){
+    color:purple;
+}
+.skillslist li::before{
+    content:"😀"
+}
+.skillslist li:hover::before{
+    content:"😎"
+}
