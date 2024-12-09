@@ -53,3 +53,13 @@ input[type="checkbox"]{
 .skillslist li:hover::before{
     content:"😎"
 }
+
+#procent{
+    display: flex;
+}
+@media (max-width:1440px) {
+    body{
+        background-color: aqua;
+        color: red;
+    }
+}
